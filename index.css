@@ -21,7 +21,7 @@ body {
 
 #attempt {
     font-size: 1.5rem;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 #restart {
@@ -35,4 +35,37 @@ body {
 
 #restart:hover {
     color: magenta;
+}
+
+/* RESPONSIVE */
+/* TABLET SIZE */
+@media only screen and (max-width: 768px) {
+    #message {
+        font-size: 2rem;
+    }
+
+    #attempt {
+        font-size: 1.25rem;
+    }
+
+    #restart {
+        font-size: 0.75rem;
+    }
+}
+
+/* MOBILE SIZE */
+@media only screen and (max-width: 600px) {
+    #message {
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+
+    #attempt {
+        font-size: 0.6rem;
+        margin-bottom: 50px;
+    }
+
+    #restart {
+        font-size: 0.5rem;
+    }
 }
