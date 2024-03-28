@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: #28282B;
+    font-family: "Press Start 2P", system-ui;
+    color: whitesmoke;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
