@@ -38,8 +38,8 @@ body {
 }
 
 /* RESPONSIVE */
-/* TABLET SIZE */
-@media only screen and (max-width: 768px) {
+/* TABLET SIZE (768px) */
+@media only screen and (max-width: 48em) {
     #message {
         font-size: 2rem;
     }
@@ -53,8 +53,8 @@ body {
     }
 }
 
-/* MOBILE SIZE */
-@media only screen and (max-width: 600px) {
+/* MOBILE SIZE (600px) */
+@media only screen and (max-width: 37.5em) {
     #message {
         font-size: 1rem;
         margin-bottom: 25px;
