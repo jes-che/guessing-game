@@ -23,7 +23,7 @@ while (parseInt(guess) !== targetNum) {
 }
 
 if (guess === "q" || guess === null) {
-    document.getElementById("message").innerHTML = "OK YOU QUIT!";
+    document.getElementById("message").innerHTML = "OH NO YOU QUIT!";
     document.getElementById("restart").addEventListener("click", function() {
         window.location.reload();
         return false;
