@@ -23,14 +23,14 @@ while (parseInt(guess) !== targetNum) {
 }
 
 if (guess === 'q' || guess === null) {
-    document.getElementById('message').innerHTML = 'OH NO YOU QUIT!';
+    document.getElementById('message').textContent = 'OH NO YOU QUIT!';
     document.getElementById('restart').addEventListener('click', function() {
         window.location.reload();
         return false;
     });
 } else {
-    document.getElementById('message').innerHTML = 'CONGRATS! YOU WIN!';
-    document.getElementById('attempt').innerHTML = `It took you ${attempts} guess(es)`;
+    document.getElementById('message').textContent = 'CONGRATS! YOU WIN!';
+    document.getElementById('attempt').textContent = `It took you ${attempts} guess(es)`;
     document.getElementById('restart').addEventListener('click', function() {
         window.location.reload();
         return false;
