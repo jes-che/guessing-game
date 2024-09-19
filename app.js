@@ -12,10 +12,10 @@ while (parseInt(guess) !== targetNum) {
     if (guess === 'q' || guess === null) break;
     guess = parseInt(guess);
     if (guess > targetNum) {
-        guess = prompt('Too high! Enter a new guess:');
+        guess = prompt('Too high! Enter a new guess or "q" to quit:');
         attempts++;
     } else if (guess < targetNum) {
-        guess = prompt('Too low! Enter a new guess:');
+        guess = prompt('Too low! Enter a new guess or "q" to quit:');
         attempts++;
     } else {
         guess = prompt('Invalid guess! Enter a number or "q" to quit:');
